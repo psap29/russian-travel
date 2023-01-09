@@ -5,8 +5,8 @@
     line-height: 22px;
     font-weight: 400;
     text-decoration: underline;
-    color: #FFFFFF; 
-    transition: opacity 0.3s ease; 
+    color: #FFFFFF;
+    transition: opacity 0.3s ease;
 }
 
 .place__link:hover {
