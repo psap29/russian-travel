@@ -1,0 +1,26 @@
+.place__paragraph {
+    margin: 0 0 26px 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 29.34px;
+    font-weight: 400;
+    color: #FFFFFF;  
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .place__paragraph:last-child {
+        margin-bottom: 0;
+    }
+}
+

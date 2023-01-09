@@ -1,0 +1,14 @@
+.intro__list {
+    padding: 0;
+    list-style: none;
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .intro__list {
+        margin-top: 34px;
+    }
+}
+

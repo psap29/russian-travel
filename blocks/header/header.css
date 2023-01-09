@@ -1,0 +1,18 @@
+.header {
+    margin: 0 auto;
+    padding-top: 28px;
+    box-sizing: border-box;
+    width: 92.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .header {
+        width: 90%;
+    }
+}

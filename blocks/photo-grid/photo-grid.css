@@ -1,0 +1,19 @@
+.photo-grid {
+    margin: 0 auto;
+    display: grid;
+    width: 92.5%;
+    padding-top: 92px;
+    box-sizing: border-box;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(274px, 1fr));
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .photo-grid {
+        padding-top: 64px;
+    }
+}
+

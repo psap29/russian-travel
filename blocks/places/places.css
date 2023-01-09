@@ -1,0 +1,31 @@
+.places {
+    margin: 0 auto;
+    width: 77%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .places {
+        margin: 0 auto;
+        width: 91%;
+    }
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .places {
+        margin: 0 auto;
+        width: 93.7%;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .places {
+        width: 100%;
+    }
+}
+

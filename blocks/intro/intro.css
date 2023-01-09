@@ -1,0 +1,42 @@
+.intro {
+    margin: 0;
+    padding-left: 11.5%;
+    box-sizing: border-box;
+    width: 53.9%;
+}
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding-left: 5%;
+        width: 67%;
+    }
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .intro {
+        padding-left: 3.1%;
+        width: 93.7%;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .intro {
+        padding-left: 5%;
+        width: 90%;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .intro__title {
+        margin-top: 64px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -1,0 +1,28 @@
+.lead__image {
+    padding: 64px 12% 0 12%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        padding: 64px 5% 0 5%;
+    }
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .lead__image {
+        padding: 64px 0 0 0;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .lead__image {
+        padding-top: 40px;
+    }
+}

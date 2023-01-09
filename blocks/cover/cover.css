@@ -1,0 +1,36 @@
+.cover {
+    margin: 0 auto;
+    width: 92.5%;
+    height: 740px;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        height: 640px;
+    }
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .cover {
+        width: 100%;
+        height: 480px;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .cover {
+        padding-top: 66px;
+        width: 100%;
+        height: 200px;
+    }
+}

@@ -1,0 +1,29 @@
+.lead__subtitle {
+    margin: 32px auto 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #FFFFFF; 
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .lead__subtitle {
+        width: 83.3%;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .lead__subtitle {
+        width: 90%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

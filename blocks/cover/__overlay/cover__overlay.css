@@ -1,0 +1,42 @@
+.cover__overlay {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 740px;
+    background-color: #000000; 
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        width: 100%;
+        min-height: 640px;
+    }
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .cover__overlay {
+        width: 100%;
+        min-height: 480px;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .cover__overlay {
+        width: 100%;
+        min-height: 266px;
+    }
+}

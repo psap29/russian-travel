@@ -1,0 +1,29 @@
+.place__top-side {
+    display: flex;
+    justify-content: start;
+    column-gap: 40px;
+    width: 100%;
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .place__top-side {
+        display: flex;
+        justify-content: start;
+        column-gap: 28px;
+        width: 100%;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .place__top-side {
+        margin-top: 50px;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
+

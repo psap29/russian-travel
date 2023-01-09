@@ -1,0 +1,22 @@
+.footer {
+    width: 92.5%;
+    margin: 0 auto;
+    padding: 92px 0 24px 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .footer {
+        padding: 64px 0 24px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 48px;
+    }
+}

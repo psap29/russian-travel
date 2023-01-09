@@ -1,0 +1,44 @@
+.cover__title {
+    display: block;
+    margin: 0 auto;
+    padding: 245px 0 0 0;
+    box-sizing: border-box;
+    width: 47.2%;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF; 
+    position: relative;
+    z-index: 2;
+}
+
+/** разобраться с width и height **/
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        padding: 195px 0 0 0;
+        width: 54.6%;
+    }
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .cover__title {
+        padding: 115px 0 0 0;
+        width: 72.9%;
+    }
+}
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .cover__title {
+        padding: 33px 0 0 0;
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

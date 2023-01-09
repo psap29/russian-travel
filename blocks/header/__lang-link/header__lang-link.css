@@ -1,0 +1,24 @@
+.header__lang-link {
+    margin: 0 18px 0 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #FFFFFF; 
+}
+
+.header__lang-link:nth-child(2) {
+    margin-right: 0;
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+

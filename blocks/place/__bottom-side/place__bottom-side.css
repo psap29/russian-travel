@@ -1,0 +1,42 @@
+.place__bottom-side {
+    margin-top: 48px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    column-gap: 40px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__bottom-side {
+        justify-content: start;
+        align-items: start;
+    }
+}
+
+/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+
+@media screen and (max-width: 790px) {
+    .place__bottom-side {
+        margin-top: 48px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        column-gap: 28px;
+        width: 100%;
+    }
+}
+
+
+/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
+
+@media screen and (max-width: 710px) {
+    .place__bottom-side {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 32px;
+        justify-content: start;
+        align-items: start;
+    }
+}
+
