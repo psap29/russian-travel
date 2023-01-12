@@ -4,10 +4,11 @@
     min-height: 740px;
     display: flex;
     align-items: center;
-    background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     position: relative;
     z-index: 0;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: contain;
 }
 
 @media screen and (max-width: 1024px) {
