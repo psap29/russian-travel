@@ -1,12 +1,10 @@
 .intro__list {
+    margin: 33px 0 0 0;
     padding: 0;
     list-style: none;
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 768px) {
     .intro__list {
         margin-top: 34px;
     }

@@ -1,15 +1,20 @@
 .footer__copyright {
+    margin: 0;
+    padding: 0;
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
     color: #FFFFFF; 
 }
 
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 768px) {
     .footer__copyright {
-        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
         line-height: 14px;
     }
 }

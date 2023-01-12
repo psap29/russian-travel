@@ -1,31 +1,33 @@
 .places {
     margin: 0 auto;
+    padding: 92px 0 0 0;
     width: 77%;
 }
 
 
 @media screen and (max-width: 1024px) {
     .places {
-        margin: 0 auto;
-        width: 91%;
+        width: 90.6%;
     }
 }
 
-/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
-
-@media screen and (max-width: 790px) {
-    .places {
-        margin: 0 auto;
-        width: 93.7%;
-    }
+@media screen and (max-width: 768px) {
+  .places {
+      padding-top: 88px;
+      width: 93.7%;
+  }
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 500px) {
     .places {
+        padding-top: 64px;
         width: 100%;
     }
-}
+  }
 
+@media screen and (max-width: 320px) {
+    .places {
+        padding-top: 64px;
+        width: 100%;
+    }
+  }

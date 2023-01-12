@@ -2,33 +2,60 @@
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    width: 56.2%;
+    width: 73.1%;
     font-size: 96px;
     line-height: 100px;
     font-weight: 900;
     color: #FFFFFF; 
 }
 
+/** добавил 2 дополнительные точки, так как заголовок не влезает между базовыми промежутками **/
+
+@media screen and (max-width: 1200px) {
+    .lead__title {
+        width: 85%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .lead__title {
-        min-width: 70.3%;
+        width: 77.5%;
     }
 }
 
-/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+/** немного поменял размер шрифта, чтобы заголовок точно вошел в указанный промежуток **/
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 990px) {
     .lead__title {
-        min-width: 93.7%;
+        width: 100%;
+        font-size: 78px;
     }
 }
 
 
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 1024px) {
     .lead__title {
-        min-width: 90%;
+        width: 77.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        width: 93.7%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .lead__title {
+        width: 90%;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        width: 90%;
         font-size: 40px;
         line-height: 44px;
     }

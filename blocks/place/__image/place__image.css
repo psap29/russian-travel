@@ -1,30 +1,33 @@
 .place__image {
+    display: block;
+    margin: 0;
+    padding: 0;
     width: 46.7%;
     object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
     .place__image {
-        object-fit: contain;
+        width: 47.4%;
     }
 }
 
-/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
-
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
     .place__image {
-        width: 44.2%;
-        object-fit: contain;
+        width: 47.2%;
     }
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 500px) {
     .place__image {
         width: 100%;
-        object-fit: contain;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        width: 100%;
     }
 }
 

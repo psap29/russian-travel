@@ -1,9 +1,5 @@
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 320px) {
     .header__logo {
-        width: 44.3%;
+        width: 49.3%;
     }
 }
-

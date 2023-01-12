@@ -2,26 +2,28 @@
     margin: 32px auto 0;
     padding: 0;
     text-align: center;
-    width: 50%;
+    width: 65%;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
     color: #FFFFFF; 
 }
 
-/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        width: 68.9%;
+    }
+}
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
     .lead__subtitle {
         width: 83.3%;
     }
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 320px) {
     .lead__subtitle {
+        margin-top: 16px;
         width: 90%;
         font-size: 16px;
         line-height: 20px;

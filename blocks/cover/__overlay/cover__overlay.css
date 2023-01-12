@@ -22,21 +22,23 @@
     }
 }
 
-/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
-
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
     .cover__overlay {
         width: 100%;
         min-height: 480px;
     }
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 500px) {
     .cover__overlay {
         width: 100%;
-        min-height: 266px;
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        width: 100%;
+        min-height: 200px;
     }
 }

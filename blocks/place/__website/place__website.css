@@ -1,17 +1,20 @@
 .place__website {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     row-gap: 12px;
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 500px) {
     .place__website {
-        row-gap: 12px;
-        padding-left: 5%;
+        margin-left: 16px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        margin-left: 16px;
     }
 }
 

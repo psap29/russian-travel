@@ -8,11 +8,21 @@
     align-items: center;
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 1024px) {
     .header {
+        width: 90.6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 93.7%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding-top: 16px;
         width: 90%;
     }
 }

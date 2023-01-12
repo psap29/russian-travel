@@ -7,20 +7,42 @@
     color: #FFFFFF;  
 }
 
-/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
-
-@media screen and (max-width: 790px) {
-    .place__paragraph {
-        font-size: 16px;
-    }
+.place__paragraph:last-child {
+    margin-bottom: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        margin: 0 0 27px 0;
+    }
 
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
     .place__paragraph:last-child {
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        margin: 0 0 25px 0;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+
+    .place__paragraph:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .place__paragraph:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph:last-child {
+        margin-bottom: 0;
+    }
+}
+
 

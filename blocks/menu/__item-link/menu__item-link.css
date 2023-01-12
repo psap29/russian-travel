@@ -7,12 +7,3 @@
 .menu__item-link:hover {
     opacity: 0.8;
 }
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
-    .menu__item-link {
-        text-decoration: none;
-        color: #FFFFFF;
-    }
-}

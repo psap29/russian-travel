@@ -12,13 +12,13 @@
     margin-right: 0;
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 320px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
     }
-}
 
+    .header__lang-link:nth-child(2) {
+        margin-right: 0;
+    }
+}

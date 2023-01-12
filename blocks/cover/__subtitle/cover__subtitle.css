@@ -1,5 +1,5 @@
 .cover__subtitle {
-    margin: 32px auto 0;
+    margin: 0;
     padding: 0;
     width: 30.4%;
     font-size: 18px;
@@ -13,23 +13,19 @@
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        margin: 32px auto 0;
         width: 35.6%;
     }
 }
 
-/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
-
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
     .cover__subtitle {
         width: 46.8%;
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 500px) {
     .cover__subtitle {
         width: 90%;
         font-size: 14px;
@@ -37,3 +33,10 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        width: 90%;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

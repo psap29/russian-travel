@@ -4,16 +4,43 @@
     width: 92.5%;
     padding-top: 92px;
     box-sizing: border-box;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(274px, 1fr));
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        width: 90.6%;
+        grid-template-columns: repeat(auto-fit, minmax(299.9px, 1fr));
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        width: 93.7%;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 16px;
+    }
 }
 
 
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 500px) {
     .photo-grid {
         padding-top: 64px;
+        width: 90%;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+        row-gap: 12px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        padding-top: 64px;
+        width: 90%;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+        row-gap: 12px;
     }
 }
 

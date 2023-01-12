@@ -6,13 +6,17 @@
     column-gap: 18px;
 }
 
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 750px) {
     .menu__items {
-        display: flex;
         flex-direction: column;
-        justify-content: start;
+        row-gap: 32px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .menu__items {
+        flex-direction: column;
         row-gap: 32px;
     }
 }

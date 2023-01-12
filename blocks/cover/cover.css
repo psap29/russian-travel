@@ -1,7 +1,9 @@
 .cover {
     margin: 0 auto;
     width: 92.5%;
-    height: 740px;
+    min-height: 740px;
+    display: flex;
+    align-items: center;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     position: relative;
@@ -11,26 +13,27 @@
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
-        height: 640px;
+        min-height: 640px;
     }
 }
 
-/** немного увеличил значение точки перелома, так как главный заголовок начинает ехать **/
-
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
     .cover {
         width: 100%;
-        height: 480px;
+        min-height: 480px;
     }
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 500px) {
     .cover {
-        padding-top: 66px;
         width: 100%;
-        height: 200px;
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        width: 100%;
+        min-height: 200px;
     }
 }

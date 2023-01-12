@@ -1,21 +1,58 @@
 .place {
-    padding: 92px 0 0;
+    padding: 80px 0 0 0;
     box-sizing: border-box;
     width: 100%;
 }
 
-.place:last-child {
+.place:first-of-type {
+    padding-top: 0;
+}
+
+.place:last-of-type {
     padding-bottom: 92px;
 }
 
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-
-/** cнова задал точку перелома побольше, так как на смартфонах все ломается **/
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 768px) {
     .place {
         padding-top: 0;
+        padding-bottom: 73px;
     }
-}
+
+    .place:first-of-type {
+        padding-top: 0;
+    }
+
+    .place:last-of-type {
+        padding-bottom: 90px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .place {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .place:first-of-type {
+        padding-top: 0;
+    }
+
+    .place:last-of-type {
+        padding-bottom: 66px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .place:first-of-type {
+        padding-top: 0;
+    }
+
+    .place:last-of-type {
+        padding-bottom: 66px;
+    }
+  }
