@@ -9,8 +9,6 @@
 
 @media screen and (max-width: 1024px) {
     .place__bottom-side {
-        justify-content: space-between;
-        align-items: flex-start;
         column-gap: 32px;
     }
 }
@@ -21,7 +19,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .place__bottom-side {
         margin-top: 0;
         display: flex;

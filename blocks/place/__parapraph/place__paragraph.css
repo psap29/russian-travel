@@ -33,13 +33,26 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+    .place__paragraph {
+        margin: 0 0 25px 0;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+
+
     .place__paragraph:last-child {
         margin-bottom: 0;
     }
 }
 
 @media screen and (max-width: 320px) {
+    .place__paragraph {
+        margin: 0 0 25px 0;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+
     .place__paragraph:last-child {
         margin-bottom: 0;
     }
